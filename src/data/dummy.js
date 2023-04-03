@@ -511,11 +511,7 @@ export const links = [
       {
         name: 'editor',
         icon: <FiEdit />,
-      },
-      {
-        name: 'color-picker',
-        icon: <BiColorFill />,
-      },
+      }
     ],
   },
   {
@@ -545,10 +541,6 @@ export const links = [
       {
         name: 'color-mapping',
         icon: <BsBarChart />,
-      },
-      {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
       },
       {
         name: 'stacked',
