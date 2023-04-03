@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
   ],
+  
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -18,6 +19,7 @@ module.exports = {
     'react',
   ],
   rules: {
+    "import/no-extraneous-dependencies": off,
     'react/function-component-definition': 0,
     'import/extensions': 0,
     'react/prop-types': 0,
